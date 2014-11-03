@@ -1,0 +1,141 @@
+body
+{
+	background: #eee;
+}
+figure
+{
+	margin: 0;
+}
+section p
+{
+	margin: 0;
+}
+.About
+{
+	background: #432;
+	margin: .2em;
+}
+.About p
+{
+	margin: 0;
+	padding: .2em;
+	text-align: justify;
+}
+.About img
+{
+	float: left;
+	margin: .2em;
+}
+.Footer
+{
+	background: #222;
+	text-align: center;
+}
+.Footer h3
+{
+	color: #aaa;
+	font-size: .7em;
+	margin: 0;
+	padding: 0;
+}
+.Footer em
+{
+	color: #aaa;
+	font-size: .7em;
+	margin: 0;
+	padding: 0;
+}
+.Footer h3:after
+{
+	content: " -";
+}
+.Footer h3:before
+{
+	content: "- ";
+}
+.Header
+{
+	background: #434343;
+	color: white;
+	margin: .2em;
+	overflow: hidden;
+	text-align: center;
+}
+.Header-figure
+{
+	display: inline-block;
+	float: left;
+	margin: 0;
+	width: 100px;
+}
+.Header-me
+{
+	display: inline-block;
+	font-size: 1.2em;
+	margin: 2em 0 0;
+}
+.Header-object
+{
+	display: inline-block;
+	float: right;
+	width: 100px;
+}
+.Menu
+{
+	background: #141414;
+	margin: .2em;
+	position: relative;
+	text-align: center;
+}
+.Menu ul
+{
+	margin: 0;
+	padding: 0;
+}
+.Menu ul li
+{
+	display: inline-block;
+	height: 2em;
+}
+.Menu ul li a
+{
+	background: #24f;
+	color: #fff;
+	line-height: 2em;
+	margin: 0 1em;
+	padding: .4em 2em;
+	text-decoration: none;
+}
+.Work
+{
+	background: #666;
+	margin: .2em;
+}
+.Work .Work-item:nth-child(even) .Work-image
+{
+	float: right;
+	padding: .2em;
+}
+.Work-image
+{
+	float: left;
+	padding: .2em;
+}
+.Work-imageDescription
+{
+	padding: .2em;
+	text-align: justify;
+}
+.Work-item
+{
+	background: #ccc;
+	margin: .2em 0;
+	overflow: hidden;
+}
+.Work-item:nth-child(even)
+{
+	background: #e46e46;
+}
+
+
+
