@@ -29,6 +29,7 @@ section p
 .Footer
 {
 	background: #222;
+	margin: .2em;
 	text-align: center;
 }
 .Footer h3
@@ -102,8 +103,29 @@ section p
 	background: #24f;
 	color: #fff;
 	line-height: 2em;
-	margin: 0 1em;
-	padding: .4em 2em;
+	margin: 0 .7em;
+	padding: .41em 2em .53em 2em;
+	text-decoration: none;
+}
+.Social
+{
+	background: #555;
+	text-align: center;
+	margin: .2em;
+}
+.Social-figure
+{
+	
+	display: inline-block;
+	margin: 1em 0;
+	padding: 0;
+	width: 30%;
+}
+.Social-figure a
+{
+	color: #fff;
+	font-size: 3em;
+	padding: .3em 1em;
 	text-decoration: none;
 }
 .Work
