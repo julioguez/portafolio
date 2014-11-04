@@ -28,6 +28,16 @@ section p
 	border-radius: 50%;
 	float: left;
 	margin: .2em;
+	transition:.5s;
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-webkit-transition:.5s;
+}
+.About img:hover
+{
+	transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
 }
 .Footer
 {
@@ -100,7 +110,8 @@ section p
 }
 .Menu ul li
 {
-	background: #22BCE0;
+	background: #ff3b3b;
+	border-radius: .5em;
 	display: inline-block;
 	height: 2em;
 }
