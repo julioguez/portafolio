@@ -67,7 +67,6 @@ section p
 	display: inline-block;
 	float: left;
 	margin: 0;
-	width: 100px;
 }
 .Header-me
 {
@@ -79,7 +78,6 @@ section p
 {
 	display: inline-block;
 	float: right;
-	width: 100px;
 }
 .Menu
 {
@@ -100,11 +98,10 @@ section p
 }
 .Menu ul li a
 {
-	background: #24f;
 	color: #fff;
 	line-height: 2em;
 	margin: 0 .7em;
-	padding: .41em 2em .53em 2em;
+	padding: .43em .6em .45em .6em;
 	text-decoration: none;
 }
 .Social
