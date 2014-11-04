@@ -12,8 +12,9 @@ section p
 }
 .About
 {
-	background: #432;
+	background: #fff;
 	margin: .2em;
+	overflow: hidden;
 }
 .About p
 {
@@ -23,12 +24,14 @@ section p
 }
 .About img
 {
+	border: 2px solid #464646;
+	border-radius: 50%;
 	float: left;
 	margin: .2em;
 }
 .Footer
 {
-	background: #222;
+	background: #434343;
 	margin: .2em;
 	text-align: center;
 }
@@ -61,27 +64,31 @@ section p
 	margin: .2em;
 	overflow: hidden;
 	text-align: center;
+	vertical-align: middle;
 }
-.Header-figure
+.Header-figure img
 {
+	border: .2em solid #2d2d2d;
+	border-radius: 50%;
 	display: inline-block;
 	float: left;
-	margin: 0;
+	margin: 2px 0 2px 2px;
 }
 .Header-me
 {
 	display: inline-block;
 	font-size: 1.2em;
-	margin: 2em 0 0;
+	/*margin: 2em 0 0;*/
 }
 .Header-object
 {
 	display: inline-block;
 	float: right;
+	margin: 2px 2px 2px 0;	
 }
 .Menu
 {
-	background: #141414;
+	background: #878787;
 	margin: .2em;
 	position: relative;
 	text-align: center;
@@ -93,12 +100,15 @@ section p
 }
 .Menu ul li
 {
+	background: #22BCE0;
 	display: inline-block;
 	height: 2em;
 }
 .Menu ul li a
 {
 	color: #fff;
+	font-size: 1em;
+	font-weight: normal;
 	line-height: 2em;
 	margin: 0 .7em;
 	padding: .43em .6em .45em .6em;
@@ -127,7 +137,7 @@ section p
 }
 .Work
 {
-	background: #666;
+	background: #fff;
 	margin: .2em;
 }
 .Work .Work-item:nth-child(even) .Work-image
@@ -140,6 +150,11 @@ section p
 	float: left;
 	padding: .2em;
 }
+.Work-image img
+{
+	border: 1px solid #ccc;
+	border-radius: .5em;
+}
 .Work-imageDescription
 {
 	padding: .2em;
@@ -147,13 +162,13 @@ section p
 }
 .Work-item
 {
-	background: #ccc;
+	background: #878787;
 	margin: .2em 0;
 	overflow: hidden;
 }
 .Work-item:nth-child(even)
 {
-	background: #e46e46;
+	background: #22BCE0;
 }
 
 
