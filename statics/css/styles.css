@@ -13,6 +13,7 @@ section p
 .About
 {
 	background: #fff;
+	border-bottom: 3px solid #f39c12;
 	margin: .2em;
 	overflow: hidden;
 }
@@ -24,37 +25,30 @@ section p
 }
 .About img
 {
-	border: 2px solid #464646;
 	border-radius: 50%;
 	float: left;
 	margin: .2em;
-	transition:.5s;
-	-moz-transform: rotate(90deg);
-	-o-transform: rotate(90deg);
-	-ms-transform: rotate(90deg);
-	-webkit-transition:.5s;
 }
-.About img:hover
+.About-image
 {
-	transform: rotate(360deg);
-	-webkit-transform: rotate(360deg);
 }
 .Footer
 {
-	background: #434343;
+	background: #2c3e50;
 	margin: .2em;
 	text-align: center;
 }
 .Footer h3
 {
-	color: #aaa;
+	color: #ecf0f1;
 	font-size: .7em;
+	font-weight: normal;
 	margin: 0;
 	padding: 0;
 }
 .Footer em
 {
-	color: #aaa;
+	color: #ecf0f1;
 	font-size: .7em;
 	margin: 0;
 	padding: 0;
@@ -69,36 +63,22 @@ section p
 }
 .Header
 {
-	background: #434343;
+	background: #d35400;
 	color: white;
 	margin: .2em;
 	overflow: hidden;
 	text-align: center;
 	vertical-align: middle;
 }
-.Header-figure img
-{
-	border: .2em solid #2d2d2d;
-	border-radius: 50%;
-	display: inline-block;
-	float: left;
-	margin: 2px 0 2px 2px;
-}
 .Header-me
 {
 	display: inline-block;
 	font-size: 1.2em;
-	/*margin: 2em 0 0;*/
-}
-.Header-object
-{
-	display: inline-block;
-	float: right;
-	margin: 2px 2px 2px 0;	
+	text-shadow: 3px 2px 0 rgba(0, 0, 11, .5);
 }
 .Menu
 {
-	background: #878787;
+	background: #f39c12;
 	margin: .2em;
 	position: relative;
 	text-align: center;
@@ -110,10 +90,12 @@ section p
 }
 .Menu ul li
 {
-	background: #ff3b3b;
-	border-radius: .5em;
 	display: inline-block;
 	height: 2em;
+}
+.Menu ul li:hover
+{
+	background: #e67e22;
 }
 .Menu ul li a
 {
@@ -127,9 +109,14 @@ section p
 }
 .Social
 {
-	background: #555;
+	background: #e67e22;
 	text-align: center;
 	margin: .2em;
+}
+.Social-facebook:hover 
+{
+	color: #3b5998;
+	text-shadow: 7px 0 0 rgba(0, 0, 111, 0.3);
 }
 .Social-figure
 {
@@ -146,9 +133,20 @@ section p
 	padding: .3em;
 	text-decoration: none;
 }
+.Social-github:hover 
+{
+	color: #000;
+	text-shadow: 7px 0 0 rgba(0, 0, 111, 0.3);
+}
+.Social-twitter:hover 
+{
+	color: #3498db;
+	text-shadow: 7px 0 0 rgba(0, 0, 111, 0.3);
+}
 .Work
 {
 	background: #fff;
+	border-bottom: 3px solid #f39c12;
 	margin: .2em;
 }
 .Work .Work-item:nth-child(even) .Work-image
@@ -163,7 +161,7 @@ section p
 }
 .Work-image img
 {
-	border: 1px solid #ccc;
+	border: 1px solid #fff;
 	border-radius: .5em;
 }
 .Work-imageDescription
@@ -173,13 +171,13 @@ section p
 }
 .Work-item
 {
-	background: #878787;
+	background: #ddd;
 	margin: .2em 0;
 	overflow: hidden;
 }
 .Work-item:nth-child(even)
 {
-	background: #22BCE0;
+	background: #ecf0f1;
 }
 
 
