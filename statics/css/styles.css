@@ -13,9 +13,11 @@ section p
 .About
 {
 	background: #fff;
-	border-bottom: 3px solid #f39c12;
-	margin: .2em;
+	box-shadow: 0 8px 6px -6px black;
+	margin: .2em .2em 1em .2em;
 	overflow: hidden;
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	-moz-box-shadow: 0 8px 6px -6px black;
 }
 .About p
 {
@@ -29,14 +31,15 @@ section p
 	float: left;
 	margin: .2em;
 }
-.About-image
-{
-}
 .Footer
 {
-	background: #2c3e50;
+	background: #7f8c8d;
+	box-shadow: 0 8px 6px -6px black;
 	margin: .2em;
+	padding: .2em 0;
 	text-align: center;
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	-moz-box-shadow: 0 8px 6px -6px black;
 }
 .Footer h3
 {
@@ -63,25 +66,51 @@ section p
 }
 .Header
 {
-	background: #d35400;
+	background: #2980b9;
+	border-radius: 0 0 51% 7%;
+	box-shadow: 0 8px 6px -6px black;
 	color: white;
-	margin: .2em;
+	margin: 0 .2em 1em .2em;
 	overflow: hidden;
+	position: relative;
 	text-align: center;
 	vertical-align: middle;
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	-moz-box-shadow: 0 8px 6px -6px black;
+}
+.Header p
+{
+	font-family: 'La Belle Aurore', cursive;
+	font-style: italic;
+	margin: 0 0 0 5em;
+	padding: 0 0 .5em 0;
+	/* Safari */
+	-webkit-transform: rotate(-4deg);
+	/* Firefox */
+	-moz-transform: rotate(-4deg);
+	/* IE */
+	-ms-transform: rotate(-4deg);
+	/* Opera */
+	-o-transform: rotate(-4deg);
+	/* Internet Explorer */
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 .Header-me
 {
-	display: inline-block;
-	font-size: 1.2em;
-	text-shadow: 3px 2px 0 rgba(0, 0, 11, .5);
+	font-family: 'Playball', cursive;
+	margin: 0;
+	padding: 0;	
+	text-shadow: 5px 4px 0 rgba(0, 0, 1, .5);
 }
 .Menu
 {
-	background: #f39c12;
-	margin: .2em;
+	background: #2c3e50;
+	box-shadow: 0 8px 6px -6px black;
+	margin: .2em .2em 1em .2em;
 	position: relative;
 	text-align: center;
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	-moz-box-shadow: 0 8px 6px -6px black;
 }
 .Menu ul
 {
@@ -95,11 +124,11 @@ section p
 }
 .Menu ul li:hover
 {
-	background: #e67e22;
+	background: #34495e;
 }
 .Menu ul li a
 {
-	color: #fff;
+	color: #ecf0f1;
 	font-size: 1em;
 	font-weight: normal;
 	line-height: 2em;
@@ -107,16 +136,40 @@ section p
 	padding: .43em .6em .45em .6em;
 	text-decoration: none;
 }
+.Section-title
+{
+	color: #ecf0f1;
+	background: #555;
+	border-radius: .3em;
+	font-size: 1em;
+	font-weight: normal;
+	margin: 0 .2em;
+	padding: .2em 1em;
+}
+.Section-title-about
+{
+	color: #ecf0f1;
+	background: #2980b9;
+	border-radius: .3em;
+	display: inline-block;
+	font-size: 1em;
+	font-weight: normal;
+	margin: 0 .2em;
+	padding: .2em 1em;
+}
 .Social
 {
-	background: #e67e22;
+	background: #bdc3c7;
+	box-shadow: 0 8px 6px -6px black;
 	text-align: center;
-	margin: .2em;
+	margin: 0 .2em 1em .2em;
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	-moz-box-shadow: 0 8px 6px -6px black;
 }
 .Social-facebook:hover 
 {
 	color: #3b5998;
-	text-shadow: 7px 0 0 rgba(0, 0, 111, 0.3);
+	text-shadow: 5px 2px 0 rgba(0, 0, 1, 0.3);
 }
 .Social-figure
 {
@@ -136,18 +189,20 @@ section p
 .Social-github:hover 
 {
 	color: #000;
-	text-shadow: 7px 0 0 rgba(0, 0, 111, 0.3);
+	text-shadow: 5px 2px 0 rgba(0, 0, 1, 0.3);
 }
 .Social-twitter:hover 
 {
 	color: #3498db;
-	text-shadow: 7px 0 0 rgba(0, 0, 111, 0.3);
+	text-shadow: 5px 2px 0 rgba(0, 0, 1, 0.3);
 }
 .Work
 {
 	background: #fff;
-	border-bottom: 3px solid #f39c12;
-	margin: .2em;
+	box-shadow: 0 8px 6px -6px black;
+	margin: 0 .2em 1em .2em;
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	-moz-box-shadow: 0 8px 6px -6px black;
 }
 .Work .Work-item:nth-child(even) .Work-image
 {
@@ -161,7 +216,7 @@ section p
 }
 .Work-image img
 {
-	border: 1px solid #fff;
+	border: 1px solid #95a5a6;
 	border-radius: .5em;
 }
 .Work-imageDescription
@@ -172,13 +227,33 @@ section p
 .Work-item
 {
 	background: #ddd;
-	margin: .2em 0;
+	box-shadow: 1px 2px 5px #888;
+	margin: .2em 0 .7em 0;
 	overflow: hidden;
+	position: relative;
+	-moz-box-shadow: 1px 2px 5px #888;
+	-webkit-box-shadow: 1px 2px 5px #888;
 }
 .Work-item:nth-child(even)
 {
 	background: #ecf0f1;
+	box-shadow: -1px 2px 5px #888;
+	-moz-box-shadow: -1px 2px 5px #888;
+	-webkit-box-shadow: -1px 2px 5px #888;
 }
-
-
+.Work-item .Work-itemDate
+{
+	color: #666;
+	bottom: 0;
+	font-size: .7em;
+	margin: 0 .5em 0 0;
+	position: absolute;
+	right: 0;
+}
+.Work-item:nth-child(even) .Work-itemDate
+{
+	color: #666;
+	left: 0;
+	margin: 0 0 0 .5em;
+}
 
