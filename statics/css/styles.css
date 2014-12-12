@@ -65,14 +65,7 @@ section p
 {
 	background: #34495e;
 }
-.Header
-{
-	background: #bdc3c7;
-}
-.Header h1
-{
-	margin: 0;
-}
+
 .Menu
 {
 	display: none;
@@ -136,6 +129,17 @@ section p
 	right: 0;
 	text-align: center;
 	top: 0;
+}
+.Profile
+{
+	text-align: center;
+}
+.Profile-description
+{
+}
+.Profile-figure
+{
+	margin-bottom: 1em;
 }
 .Social
 {
