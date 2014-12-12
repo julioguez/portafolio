@@ -1,9 +1,10 @@
 // menu functionality
 $(function() {
+    var btnMenu = $('#Mobile-icon');
+    $(btnMenu).on('click', showMenu);
 
-    $("#Mobile-icon").on('click', showMenu);
-
-    function showMenu() {
+    function showMenu(event) {
+        event.preventDefault();
         $('#Menu').slideToggle();
     }
 
