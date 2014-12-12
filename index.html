@@ -6,14 +6,30 @@
 	<meta name="description" content="Portafolio Julio Rodríguez" />
 	<title>Julio Rodríguez</title>
 	<link rel="stylesheet" type="text/css" href="statics/css/normalize.css" />
-	<link rel="stylesheet" type="text/css" href="statics/css/styles.css" />
 	<link rel="stylesheet" type="text/css" href="statics/css/fonts.css" />
+	<link rel="stylesheet" type="text/css" href="statics/css/styles.css" />
 	<link rel="stylesheet" type="text/css" href="statics/css/responsive.css" />
+
 </head>
 <body>
+	<!-- Menu -->
+	<!--  -->
+	<div id="Mobile" class="Mobile">
+		<a id="Mobile-icon" class="Mobile-icon icon-menu2" href="#"></a>
+	</div>
+	<div id="Mobile-title" class="Mobile-title">
+		<span class="Mobile-text">MENU</span>
+	</div>
+
+	<!-- nav -->
+	<nav id="Menu" class="Menu u-blocks">
+		<ul>
+			<li><a href="#">About</a></li><li><a href="#">Work</a></li><li><a href="#">Contact</a></li>
+		</ul>
+	</nav>
 
 	<!-- header -->
-	<header class="Header">
+	<header class="Header u-blocks">
 		<figure class="Header-figure">
 			<!-- image 100x100 px -->
 			<img class="Header-image" src="statics/img/picture02.jpg">
@@ -24,26 +40,18 @@
 		</div>
 	</header>
 
-	<!-- nav -->
-	<nav class="Menu">
-		<ul>
-			<li><a href="#">About</a></li>
-			<li><a href="#">Work</a></li>
-			<li><a href="#">Contact</a></li>
-		</ul>
-	</nav>
 
 	<!-- about section -->
-	<section class="About">
-		<figure>
-			<img src="statics/img/avatar.jpg" />
+	<section class="About u-blocks">
+		<figure class="About-imageContainer">
+			<img class="About-image" src="statics/img/avatar.jpg" />
 		</figure>
 		<p class="About-description">Rhoncus commodo fringilla at vestibulum himenaeos sed, metus feugiat posuere lobortis sem, posuere nulla conubia taciti pellentesque neque quis elementum libero eleifend erat etiam congue condimentum vulputate est purus sit scelerisque.</p>
 		<p class="About-description">At vel condimentum euismod curabitur tempus enim fermentum, quisque sociosqu ante iaculis nibh augue pellentesque placerat, dictum augue justo sollicitudin scelerisque et pellentesque luctus turpis pellentesque quisque.</p>
 	</section>
 
-	<!-- work section -->	
-	<section class="Work">
+	<!-- work section -->
+	<section class="Work u-blocks">
 		<article class="Work-item">
 			<figure class="Work-image">
 				<!-- image 200x200 px -->
@@ -74,7 +82,7 @@
 	</section>
 
 	<!-- social section -->
-	<section class="Social">
+	<section class="Social u-blocks">
 		<figure class="Social-figure">
 			<!-- image 40x40px -->
 			<a href="#" class="icon-twitter Social-twitter"></a>
@@ -90,9 +98,13 @@
 	</section>
 
 	<!-- footer -->
-	<footer class="Footer">
+	<footer class="Footer u-blocks">
 		<h3>Eleaborado por ♫ Julio Rodríguez ♪</h3>
 		<em>2014</em>
 	</footer>
+
+	/* scripts */
+	<script src="statics/js/jquery.js"></script>
+	<script src="statics/js/main.js"></script>
 </body>
 </html>

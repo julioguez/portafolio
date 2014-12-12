@@ -1,6 +1,14 @@
+/* utilities */
+.u-blocks
+{
+	margin: 0;
+	padding: 0;
+}
+
+/* tags */
 body
 {
-	background: #eee;
+	background: #fff;
 }
 figure
 {
@@ -10,154 +18,89 @@ section p
 {
 	margin: 0;
 }
+
+/* classes */
 .About
 {
-	background: #432;
-	margin: .2em;
-}
-.About p
-{
-	margin: 0;
-	padding: .2em;
-	text-align: justify;
-}
-.About img
-{
-	float: left;
-	margin: .2em;
 }
 .Footer
 {
-	background: #222;
-	margin: .2em;
-	text-align: center;
-}
-.Footer h3
-{
-	color: #aaa;
-	font-size: .7em;
-	margin: 0;
-	padding: 0;
-}
-.Footer em
-{
-	color: #aaa;
-	font-size: .7em;
-	margin: 0;
-	padding: 0;
-}
-.Footer h3:after
-{
-	content: " -";
-}
-.Footer h3:before
-{
-	content: "- ";
+
 }
 .Header
 {
-	background: #434343;
-	color: white;
-	margin: .2em;
-	overflow: hidden;
-	text-align: center;
-}
-.Header-figure
-{
-	display: inline-block;
-	float: left;
-	margin: 0;
-	width: 100px;
-}
-.Header-me
-{
-	display: inline-block;
-	font-size: 1.2em;
-	margin: 2em 0 0;
-}
-.Header-object
-{
-	display: inline-block;
-	float: right;
-	width: 100px;
+
 }
 .Menu
 {
-	background: #141414;
-	margin: .2em;
-	position: relative;
+	display: none;
+	left: 0;
+	position: fixed;
+	right: 0;
 	text-align: center;
+	top: 40px;
 }
 .Menu ul
 {
+	list-style: none;
 	margin: 0;
 	padding: 0;
 }
-.Menu ul li
-{
-	display: inline-block;
-	height: 2em;
-}
 .Menu ul li a
 {
-	background: #24f;
+	background: #3498db;
 	color: #fff;
-	line-height: 2em;
-	margin: 0 .7em;
-	padding: .41em 2em .53em 2em;
+	display: block;
+	padding: .5em 0;
 	text-decoration: none;
+}
+.Menu ul li a:hover
+{
+	background: #2980b9;
+}
+.Mobile
+{
+	background: blue;
+	height: 40px;
+	position: fixed;
+	text-align: center;
+	width: 40px;
+}
+.Mobile-icon
+{
+	color: #fff;
+	display: block;
+	font-size: 2em;
+	height: 100%;
+	line-height: 38px;
+	text-decoration: none;
+}
+.Mobile-text
+{
+	float: left;
+	margin-left: 10px;
+}
+.Mobile-title
+{
+	background: red;
+	color: #fff;
+	font-weight: 900;
+	height: 40px;
+	left: 40px;
+	line-height: 40px;
+	position: fixed;
+	right: 0;
+	text-align: center;
 }
 .Social
 {
-	background: #555;
-	text-align: center;
-	margin: .2em;
-}
-.Social-figure
-{
-	
-	display: inline-block;
-	margin: 1em 0;
-	padding: 0;
-	width: 30%;
-}
-.Social-figure a
-{
-	color: #fff;
-	font-size: 3em;
-	padding: .3em 1em;
-	text-decoration: none;
+
 }
 .Work
 {
-	background: #666;
-	margin: .2em;
+
 }
-.Work .Work-item:nth-child(even) .Work-image
-{
-	float: right;
-	padding: .2em;
-}
-.Work-image
-{
-	float: left;
-	padding: .2em;
-}
-.Work-imageDescription
-{
-	padding: .2em;
-	text-align: justify;
-}
-.Work-item
-{
-	background: #ccc;
-	margin: .2em 0;
-	overflow: hidden;
-}
-.Work-item:nth-child(even)
-{
-	background: #e46e46;
-}
+/* id's */
 
 
-
+/* media queries */
