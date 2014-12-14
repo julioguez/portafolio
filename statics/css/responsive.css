@@ -1,4 +1,40 @@
 @media screen and (min-width: 768px)
 {
 
+    .Mobile
+    {
+        display: none;
+    }
+    .Mobile-title
+    {
+        display: none;
+    }
+    .Menu
+    {
+        background: #2980b9;
+        display: block;
+        position: absolute;
+        top: 0;
+    }
+    .Menu ul
+    {
+        margin: 0;
+        padding: 0;
+    }
+    .Menu ul li
+    {
+        display: inline-block;
+    }
+    .Menu ul li a
+    {
+        padding: .6em 6em;
+    }
+
+    .Menu ul li a:hover
+    {
+        background: #3498DB;
+        color: #ecf0f1;
+    }
+
+
 }

@@ -132,10 +132,19 @@ section p
 }
 .Profile
 {
+	position: relative;
 	text-align: center;
+	z-index: -1;
 }
+
 .Profile-description
 {
+	margin: 1em;
+	text-align: left;
+}
+.Profile-image
+{
+	border-radius: .5em;
 }
 .Profile-figure
 {
