@@ -34,37 +34,68 @@ section p
 /* classes */
 .Contact
 {
+	font-size: 0;
 	text-align: center;
 }
-.Contact a
+.Contact h2
 {
-	display: block;
-	padding: .2em 0;
-	font-size: 5em;
-	text-decoration: none;
+	font-size: 1.5rem;
+	margin-left: 0.5rem;
+	text-align: left;
 }
-.Contact-email
-{
-	background: #e74c3c;
-	color: #ecf0f1;
-	font-size: 1.5em;
-	padding: 2em 0;
-}
-.Contact-figure
+.Contact-item
 {
 	display: inline-block;
-	text-align: center;
-	width: 49.6%;
+	font-size: 1.5rem;
+	min-width: 50%;
 }
-.Contact-github
+.Contact-item a
 {
-	background: #333;
 	color: #ecf0f1;
+	display: block;
+	font-size: 2em;
+	padding: 0.5em 0;
+	text-decoration: none;
+}
+.Contact-gplus
+{
+	background: #bb0000;
+	color: #ecf0f1;
+}
+.Contact-gplus:hover
+{
+	background: #bdc3c7;
+	color: #7f8c8d;
+}
+.Contact-linkedin
+{
+	background: #0e76a8;
+	color: #ecf0f1;
+}
+.Contact-linkedin:hover
+{
+	background: #bdc3c7;
+	color: #7f8c8d;
 }
 .Contact-twitter
 {
-	background: #4099FF;
+	background: #4099ff;
 	color: #ecf0f1;
+}
+.Contact-twitter:hover
+{
+	background: #bdc3c7;
+	color: #7f8c8d;
+}
+.Contact-github
+{
+	background: #000;
+	color: #ecf0f1;
+}
+.Contact-github:hover
+{
+	background: #bdc3c7;
+	color: #7f8c8d;
 }
 .Footer
 {
@@ -171,7 +202,7 @@ section p
 	border: .7em solid #ecf0f1;
 	border-radius: 50%;
 	height: 306.5px;
-	margin-bottom: 2em;
+	margin-bottom: 1em;
 	width: 306.5px;
 }
 .Profile-imageContainer
@@ -193,6 +224,12 @@ section p
 {
 	/*background: #ecf0f1;*/
 
+}
+.Work h2
+{
+	font-size: 1.5em;
+	margin-left: 0.5rem;
+	text-align: left;
 }
 /* id's */
 
