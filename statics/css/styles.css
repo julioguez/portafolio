@@ -43,6 +43,13 @@ section p
 	font-size: 5em;
 	text-decoration: none;
 }
+.Contact-email
+{
+	background: #e74c3c;
+	color: #ecf0f1;
+	font-size: 1.5em;
+	padding: 2em 0;
+}
 .Contact-figure
 {
 	display: inline-block;
@@ -51,18 +58,10 @@ section p
 }
 .Contact-github
 {
-	color: #333;
-}
-.Contact-github:hover
-{
 	background: #333;
 	color: #ecf0f1;
 }
 .Contact-twitter
-{
-	color: #4099FF;
-}
-.Contact-twitter:hover
 {
 	background: #4099FF;
 	color: #ecf0f1;
@@ -192,7 +191,7 @@ section p
 }
 .Work
 {
-	background: #ecf0f1;
+	/*background: #ecf0f1;*/
 
 }
 /* id's */
