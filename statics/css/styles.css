@@ -32,6 +32,41 @@ section p
 }
 
 /* classes */
+.Contact
+{
+	text-align: center;
+}
+.Contact a
+{
+	display: block;
+	padding: .2em 0;
+	font-size: 5em;
+	text-decoration: none;
+}
+.Contact-figure
+{
+	display: inline-block;
+	text-align: center;
+	width: 49.6%;
+}
+.Contact-github
+{
+	color: #333;
+}
+.Contact-github:hover
+{
+	background: #333;
+	color: #ecf0f1;
+}
+.Contact-twitter
+{
+	color: #4099FF;
+}
+.Contact-twitter:hover
+{
+	background: #4099FF;
+	color: #ecf0f1;
+}
 .Footer
 {
 	background: #34495e;
@@ -154,11 +189,6 @@ section p
 {
 	font-size: 2em;
 	font-weight: 200;
-}
-.Social
-{
-	background: #95a5a6;
-
 }
 .Work
 {
