@@ -6,6 +6,10 @@
 }*/
 
 /* tags */
+html, body
+{
+	height: 100%;
+}
 body
 {
 	background: #fff;
@@ -15,7 +19,7 @@ figure
 	margin: 0;
 }
 h1, h2, h3
-{
+
 	margin: 0;
 }
 img
@@ -58,12 +62,13 @@ section p
 	font-size: 2em;
 	font-weight: 200;
 	padding-bottom: 1em;
-	top: 5px;
-	vertical-align: top;
 }
 .Footer
 {
 	background: #34495e;
+	position: relative;
+	top: -1em;
+	z-index: -1;
 }
 
 .Menu
@@ -132,31 +137,39 @@ section p
 }
 .Profile
 {
+	background-image: url('../img/picture00.jpg');
+	background-position: center;
+	background-size: cover;
+	/*background-repeat: no-repeat;*/
 	position: relative;
-	text-align: center;
+	height: 100%;
 	z-index: -1;
+	top: -1em;
 }
-
-.Profile-description
+.Profile:before
 {
-	margin: 1em;
-	text-align: left;
-}
-.Profile-image
-{
-	border-radius: .5em;
-}
-.Profile-figure
-{
-	margin-bottom: 1em;
+	/*background-color: rgba(168,168,168,0.3);*/
+	background-color: rgba(67,67,67,0.3);
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
 }
 .Social
 {
 	background: #95a5a6;
+	position: relative;
+	top: -1em;
+	z-index: -1;
 }
 .Work
 {
 	background: #ecf0f1;
+	position: relative;
+	top: -1em;
+	z-index: -1;
 }
 /* id's */
 
