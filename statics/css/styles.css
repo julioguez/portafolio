@@ -32,36 +32,6 @@ section p
 }
 
 /* classes */
-.About
-{
-	margin-top: 40px;
-	text-align: center;
-}
-.About a
-{
-	color: #ecf0f1;
-	text-decoration: none;
-}
-.About-image
-{
-	border: .7em solid #ecf0f1;
-	border-radius: 50%;
-	height: 306.5px;
-	margin: 2em 2em .5em 2em;
-	width: 306.5px;
-}
-.About-git
-{
-	color: #ecf0f1;
-	font-family: icomoon;
-	font-size: 2.7em;
-}
-.About-me
-{
-	font-size: 2em;
-	font-weight: 200;
-	padding-bottom: 1em;
-}
 .Footer
 {
 	background: #34495e;
@@ -137,8 +107,9 @@ section p
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	position: relative;
 	height: 100%;
+	position: relative;
+	text-align: center;
 	z-index: -1;
 }
 .Profile:before
@@ -151,6 +122,38 @@ section p
 	top: 0;
 	width: 100%;
 	height: 100%;
+}
+.Profile a
+{
+	color: #ecf0f1;
+	text-decoration: none;
+}
+.Profile p
+{
+	margin: 0;
+}
+.Profile-image
+{
+	border: .7em solid #ecf0f1;
+	border-radius: 50%;
+	height: 306.5px;
+	margin: 2em 2em .5em 2em;
+	width: 306.5px;
+}
+.Profile-imageContainer
+{
+	padding-top: 5.6em;
+}
+.Profile-git
+{
+	color: #ecf0f1;
+	font-family: icomoon;
+	font-size: 2.7em;
+}
+.Profile-me
+{
+	font-size: 2em;
+	font-weight: 200;
 }
 .Social
 {
