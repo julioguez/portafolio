@@ -1,28 +1,40 @@
 @media screen and (min-width: 768px)
 {
-	body
-	{
-		margin: 0 auto;
-		max-width: 1200px;
-	}
-	.Work
-	{
-		overflow: hidden;
-	}
-	.Work-item
-	{
-		display: inline-block;
-		float: left;
-		width: 49.7%;
-	}
-	.Work-item:nth-child(even)
-	{
-		display: inline-block;
-		float: right;
-		width: 49.7%;
-	}
-	#contenido
-	{
-		width: 70%;
-	}
+    .Mobile
+    {
+        display: none;
+    }
+    .Mobile-title
+    {
+        display: none;
+    }
+    .Menu
+    {
+        background: #2980b9;
+        display: block;
+        height: 40px;
+        position: absolute;
+        top: 0;
+    }
+    .Menu ul
+    {
+        margin: 0;
+        padding: 0;
+    }
+    .Menu ul li
+    {
+        display: inline-block;
+    }
+    .Menu ul li a
+    {
+        padding: .6em 6em;
+    }
+
+    .Menu ul li a:hover
+    {
+        background: #3498DB;
+        color: #ecf0f1;
+    }
+
+
 }
