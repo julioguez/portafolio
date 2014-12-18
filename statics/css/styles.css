@@ -34,13 +34,16 @@ section p
 /* classes */
 .Contact
 {
+	background: #ecf0f1;
 	font-size: 0;
 	text-align: center;
 }
 .Contact h2
 {
+	color: #34495e;
 	font-size: 1.5rem;
 	margin-left: 0.5rem;
+	margin-top: 0;
 	text-align: left;
 }
 .Contact-item
@@ -165,6 +168,7 @@ section p
 	right: 0;
 	text-align: center;
 	top: 0;
+	z-index: 1;
 }
 .Profile
 {
@@ -222,13 +226,52 @@ section p
 }
 .Work
 {
-	/*background: #ecf0f1;*/
+	background: #ecf0f1;
+	color: #fff;
+	text-align: center;
 }
 .Work h2
 {
 	font-size: 1.5em;
+	color: #34495e;
 	margin-left: 0.5rem;
+	margin-top: 0;
 	text-align: left;
+}
+.Work-arrow:
+{
+
+}
+.Work-image
+{
+	text-align: center;
+	margin: -5px 0;
+}
+.Work-imageDescription
+{
+	background: #fff;
+	color: #000;
+	height: 300px;
+	margin: 0 auto;
+	padding: .5em 25px;
+	position: relative;
+	text-align: justify;
+	width: 250px;
+}
+.Work-imageDescription:before
+{
+	content: "\f0aa";
+	color: #fff;
+	font-family: icomoon;
+	font-size: 2em;
+	position: absolute;
+	top: -.6em;
+}
+.Work-item
+{
+	display: inline-block;
+	margin: .5em;
+	padding: .5em 0;
 }
 /* id's */
 
