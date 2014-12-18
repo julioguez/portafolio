@@ -113,6 +113,7 @@ section p
 	right: 0;
 	text-align: center;
 	top: 40px;
+	z-index: 1;
 }
 .Menu ul
 {
