@@ -1,9 +1,28 @@
 /* utilities */
-/*.u-blocks
+.u-develop:before
 {
-	margin: 0;
-	padding: 0;
-}*/
+	background: #27ae60;
+	color: #ecf0f1;
+	content: "In development";
+	font-size: .8em;
+	padding: .2em 2em;
+}
+.u-offline:before
+{
+	background: #7f8c8d;
+	color: #ecf0f1;
+	content: "Offline";
+	font-size: .8em;
+	padding: .2em 2em;
+}
+.u-online:before
+{
+	background: #e74c3c;
+	color: #ecf0f1;
+	content: "Online";
+	font-size: .8em;
+	padding: .2em 2em;
+}
 
 /* tags */
 html, body
@@ -40,7 +59,7 @@ section p
 }
 .Contact h2
 {
-	color: #34495e;
+	color: #2c3e50;
 	font-size: 1.5rem;
 	margin-left: 0.5rem;
 	margin-top: 0;
@@ -102,7 +121,7 @@ section p
 }
 .Footer
 {
-	background: #34495e;
+	background: #2c3e50;
 	color: #ecf0f1;
 	padding: 2em 0;
 	text-align: center;
@@ -241,14 +260,14 @@ section p
 .Work h2
 {
 	font-size: 1.5em;
-	color: #34495e;
+	color: #2c3e50;
 	margin-left: 0.5rem;
 	margin-top: 0;
 	text-align: left;
 }
-.Work-arrow:
+.Work h3
 {
-
+	text-align: left;
 }
 .Work-image
 {
@@ -263,7 +282,7 @@ section p
 	margin: 0 auto;
 	padding: .5em 25px;
 	position: relative;
-	text-align: justify;
+	text-align: left;
 	width: 250px;
 }
 .Work-imageDescription:before
@@ -280,6 +299,13 @@ section p
 	display: inline-block;
 	margin: .5em;
 	padding: .5em 0;
+	vertical-align: top;
+}
+.Work-status
+{
+	bottom: 0;
+	position: absolute;
+	right: 0;
 }
 /* id's */
 
